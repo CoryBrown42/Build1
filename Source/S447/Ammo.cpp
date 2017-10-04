@@ -25,7 +25,7 @@ void AAmmo::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 	Time += Speed * DeltaTime;
-	if (Time >= 50.0f)
+	if (Time >= 60.0f)
 	{
 		Time = 0;
 	}
